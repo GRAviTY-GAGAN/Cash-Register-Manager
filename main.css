@@ -6,8 +6,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 40vw;
-    margin-left: 30%;
+    width: 100vw;
+    min-height: 100vh;
     background-color: rgb(242, 133, 9);   
 }
 
@@ -45,20 +45,22 @@ label {
     width: 10vh;
 }
 
-caption {
-    margin-top: 10px;
-    margin-bottom: 10px;
+span {
+    margin: 10px;
 }
 
 table{
-    
+   table-layout: fixed;
+   border-collapse: collapse;
+   margin: 10px;
   }
 
   th, td {
     padding: 10px;
     text-align: center;
-    border-collapse: collapse;
+    
     border: 1px solid;
+    width: 10%;
 
   }
 
